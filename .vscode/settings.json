@@ -1,0 +1,8 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "dz4_20JUNE/opencsv.jar",
+        "dz4_20JUNE/lib/opencsv.jar",
+        "dz4_20JUNE/lib/commons-lang3.jar"
+    ]
+}
