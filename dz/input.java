@@ -16,7 +16,7 @@ public class input {
         String[] arr2 = new String[1];
         try {
 
-            File file = new File("C:/Users/Макс/Desktop/JAVA/dz/input.txt");
+            File file = new File("input.txt");
             FileReader fr = new FileReader(file);
             BufferedReader reader = new BufferedReader(fr);
             String line = reader.readLine();

@@ -9,7 +9,7 @@ import java.io.FileNotFoundException;
 public class output {
     public static void write(int result){
         try {
-        FileWriter writer = new FileWriter("C:/Users/Макс/Desktop/JAVA/dz/output.txt", false);
+        FileWriter writer = new FileWriter("output.txt", false);
         writer.write(Integer.toString(result));
         writer.close();
         } catch (FileNotFoundException e) {
